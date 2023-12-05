@@ -1,0 +1,60 @@
+1. Spartak Logo
+
+//div[@class='header__logo']
+//img[@src='/upload/logo.png']
+
+2. Impresso link
+
+//div[@class='content_menu']//a[@href='/products/Impresso/']
+//div[@class='content_menu'][contains(string(),'Импрессо')]
+
+3. Partners Info
+
+//div[@class='content_menu']//a[@href='/partners/']/span
+//div[@class='content_menu']//a/span[contains(string(),'Информация для партнеров')]
+
+4. Search
+
+//i[@class='search fa search-btn lupa']
+//div[@class='header__search']
+
+5. Eye
+
+//span[@class='header__eye']
+//a[@href='/?special_version=Y']
+
+
+6. RU
+
+//a[contains(@class,'header__lang__item header__lang__item_ru')]
+//div[@class='header__lang']/a[@href='/']
+
+7. Ch
+
+//a[@class='header__lang__item header__lang__item_eng' and @href='/cn/']
+//div[@class='header__lang']/a[contains(string(),'Ch')]
+
+8. Search
+
+//a[@class='download-catalog']
+//a[contains(string(),'Скачать каталог')]
+
+9. Pagination
+
+//ol//a[contains(string(),'2')]
+//a[@class='flex-active'][contains(string(),'2')]
+
+10. Slider
+
+//li[@class='flex-nav-next']
+//a[@class='flex-next']
+
+11. VK
+
+//div[@class='top_slider_wrapp']//a[contains(@href,'https://vk.com/')]
+//div[@class='top_slider_wrapp']//child::li/a[contains(@href,'https://vk.com/')]
+
+12. YouTube
+
+//div[@class='top_slider_wrapp']//a[contains(@href,'https://www.youtube.com/')]
+//div[@class='top_slider_wrapp']//child::li/a[contains(@href,'https://www.youtube.com/')]

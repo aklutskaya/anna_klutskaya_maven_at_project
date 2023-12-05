@@ -1,0 +1,45 @@
+1. Mail ru
+
+//a[contains(@class,'ph-project__link_current')]
+//li[contains(@class,'ph-project')][contains(string(),'Mail.ru')]
+
+2. Mail Logo
+
+//div[contains(@class,'logo_doodle')]
+
+3. Cloud
+
+//a[contains(@class,'ph-project__link')][contains(string(), 'Облако')]
+//ul[contains(@class,'ph-projects__list')]/li[3]
+
+4. Lady
+
+//a[contains(@href,'//lady.mail.ru/')]
+//div[contains(@class,'tabs srlclfo')]//a[contains(string(), 'Леди')]
+
+5. Post
+
+//div[contains(@class,'mailbox-service')]//a[contains(string(), 'Почта')]
+//div[contains(@class,'mailbox-service')]//a[1]
+
+6. News
+
+//li[@class='news-item-container'][3]
+
+7. Search
+
+//button[contains(@class,'search-arrow__button')]
+//button[@data-testid='search-button']
+
+8. Registration
+
+//a[contains(@class,'ph-project__register')]
+//div[contains(@class,'ph-auth')]//a[contains(string(),'Регистрация')]
+
+9. Login
+
+//button[contains(@class,'ph-login')]
+//div[contains(@class,'ph-auth')]//button[contains(string(),'Войти')]
+
+
+
